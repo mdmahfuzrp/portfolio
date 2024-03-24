@@ -23,7 +23,11 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.top-head-mrp{
+  text-align: center;
 }
 
 h2 {

@@ -6,17 +6,17 @@
   text-align: center;
   background-color: var(--clr-bg);
   height: 50vh;
-  /* max-height: 400px; */
+  
 }
 
 .techsection > div {
-  width: 11%;
-  height: 16vh;
-  max-height: 140px;
+  height: 120px;
+  width: 120px;
+  padding: 15px;
   box-shadow: var(--shadow);
   z-index: 1;
   border-radius: 20px;
-  margin: 2.5%;
+  margin: 1%;
   float: left;
   display: flex;
   flex-direction: column;
@@ -24,12 +24,13 @@
   align-items: center;
   transition: all 0.5s ease 0s;
   border: 2px solid var(--clr-primary);
+  cursor: pointer;
 }
 .techsection > div:hover {
   background-color: var(--clr-bg);
   overflow: hidden;
-  transform: scale(1.08);
-  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.226) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border: 1px solid var(--clr-primary);
 }
